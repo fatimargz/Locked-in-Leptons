@@ -1,0 +1,42 @@
+fileset:
+    "ggH125_WW2lep":
+        "files":
+            "https://atlas-opendata.web.cern.ch/Legacy13TeV/2lep/MC/mc_345324.ggH125_WW2lep.2lep.root" : "mini"
+        "metadata":
+            "short_name" : "ggH125_WW"
+            "is_MC": True
+            
+    "VBFH125_WW2lep":
+        "files":
+            "https://atlas-opendata.web.cern.ch/Legacy13TeV/2lep/MC/mc_345323.VBFH125_WW2lep.2lep.root": "mini"
+        "metadata":
+            "short_name": "VBFH125_WW"
+            "is_MC": True
+            
+    "ggH125_ZZ4lep":
+        "files":
+            "https://atlas-opendata.web.cern.ch/Legacy13TeV/2lep/MC/mc_345060.ggH125_ZZ4lep.2lep.root": "mini"
+        "metadata":
+            "short_name": "ggH125_ZZ"
+            "is_MC": True
+            
+    "VBFH125_ZZ4lep":
+        "files":
+            "https://atlas-opendata.web.cern.ch/Legacy13TeV/2lep/MC/mc_344235.VBFH125_ZZ4lep.2lep.root": "mini"
+        "metadata":
+            "short_name": "VBFH125_ZZ"
+            "is_MC": True
+            
+    "WH125_ZZ4lep":
+        "files":
+            "https://atlas-opendata.web.cern.ch/Legacy13TeV/2lep/MC/mc_341964.WH125_ZZ4lep.2lep.root": "mini"
+        "metadata":
+            "short_name": "WH125_ZZ"
+            "is_MC": True
+            
+    "ZH125_ZZ4lep":
+        "files":
+            "https://atlas-opendata.web.cern.ch/Legacy13TeV/2lep/MC/mc_341947.ZH125_ZZ4lep.2lep.root": "mini"
+        "metadata":
+            "short_name": "ZH125_ZZ"
+            "is_MC": True
