@@ -19,16 +19,32 @@ git clone https://github.com/fatimargz/Locked-in-Leptons.git
 ```
 
 Create a conda environment from the environment.yml file 
-`conda env create -f environment.yml`
+```
+conda env create -f environment.yml
+```
 
 Activate the new environment: 
-`conda activate hls4ml-tutorial`
+```
+conda activate hls4ml-tutorial
+```
 
 Source vitis:
-`source /opt/metis/el8/contrib/amdtools/xilinx-2023.1/Vitis/2023.1/settings64.sh`
+```
+source /opt/metis/el8/contrib/amdtools/xilinx-2023.1/Vitis/2023.1/settings64.sh
+```
 
 Begin port forwarding a jupyter notebook: 
-`jupyter lab --no-browser --port 8080`
+```
+jupyter lab --no-browser --port 8080
+```
 
 In a separate terminal, connect to the vmlab with the port used above for jupyter lab. Replace `$USER` with your username.
-`ssh -L 8080:local:host:8080 $USER@vmlab.niu.edu`
+```
+ssh -L 8080:local:host:8080 $USER@vmlab.niu.edu
+```
+
+## Loading Data
+Run the following to load the dataset. It should create two parquet files, W_data.parquet and Z_data.parquet:
+```
+python read_data.py
+``` 
