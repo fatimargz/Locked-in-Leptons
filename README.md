@@ -1,7 +1,7 @@
 # Locked-in-Leptons
 Final Project for C2-THE-P2 Course, Spring 2025 : https://github.com/jahreda/c2-the-p2
 
-The objective of this project is to train a ML model to identify events with true MET and program this MET tagger to an FPGA. This project follows closely the (hls4ml tutorial)[https://github.com/fastmachinelearning/hls4ml-tutorial]. Two applications were done using a BDT and DNN.  
+The objective of this project is to train a ML model to identify events with true MET and program this MET tagger to an FPGA. This project follows closely the [hls4ml tutorial](https://github.com/fastmachinelearning/hls4ml-tutorial). Two applications were done using a BDT and DNN.  
 
 'Presentation.pdf`: Goes into into details behind our motives, analysis, and results. 
 
