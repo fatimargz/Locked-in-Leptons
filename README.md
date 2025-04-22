@@ -3,9 +3,9 @@ Final Project for C2-THE-P2 Course, Spring 2025 : https://github.com/jahreda/c2-
 
 The objective of this project is to train a ML model to identify events with true MET and program this MET tagger to an FPGA. This project follows closely the [hls4ml tutorial](https://github.com/fastmachinelearning/hls4ml-tutorial). Two applications were done using a BDT and DNN.  
 
-'Presentation.pdf`: Goes into into details behind our motives, analysis, and results. 
+`Presentation.pdf`: Goes into into details behind our motives, analysis, and results. 
 
-`read\_data.py`: Script that loads open ATALS data and outputs two parquet files: W_data.parquet and Z_data.parquet.
+`read_data.py`: Script that loads open ATALS data and outputs two parquet files: W_data.parquet and Z_data.parquet.
 
 `DNN`: Contains analysis done for DNN application.
 
@@ -15,9 +15,9 @@ The objective of this project is to train a ML model to identify events with tru
 
 `Analysis.ipynb`:  Jupyter notebook that analyzes resource usage from optimizing DNN layers and compares resource usage with BDT model. 
 
-`fatimas\_results.txt`: Resource usage for each model with different number of optimized layers. Data pulled from vivado reports in notebook `DNN/Opt\_\*.ipynb` and `DNN.ipynb`.
+`fatimas_results.txt`: Resource usage for each model with different number of optimized layers. Data pulled from vivado reports in notebook `DNN/Opt_*.ipynb` and `DNN.ipynb`.
 
-`franks\_results.txt`: Resource usage for different precision settings of the BDT model.
+`franks_results.txt`: Resource usage for different precision settings of the BDT model.
  
 
 ## Set-Up
