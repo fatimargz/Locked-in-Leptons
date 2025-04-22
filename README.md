@@ -13,8 +13,10 @@ The objective of this project is to train a ML model to identify events with tru
 
 ## Set-Up
 First sign into vmlab and clone this repository. 
-``` ssh $USER@vmlab.niu.edu
-git clone https://github.com/fatimargz/Locked-in-Leptons.git```
+```
+ssh $USER@vmlab.niu.edu
+git clone https://github.com/fatimargz/Locked-in-Leptons.git 
+```
 
 Create a conda environment from the environment.yml file 
 `conda env create -f environment.yml`
