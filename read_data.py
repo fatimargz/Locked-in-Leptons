@@ -30,7 +30,6 @@ W_data = ak.concatenate([Wplusenu_data_1l['mini'].arrays(features),
                          Wplusenu_data_2l['mini'].arrays(features),
                         ])
 
-ak.to_parquet(W_data, "W_data.parquet")
 
 Z_data = ak.concatenate([Zee_data_1l['mini'].arrays(features),
                          Zmumu_data_1l['mini'].arrays(features),
@@ -39,5 +38,9 @@ Z_data = ak.concatenate([Zee_data_1l['mini'].arrays(features),
                          Zmumu_data_2l['mini'].arrays(features),
                          Ztautau_data_2l['mini'].arrays(features)])
 
-ak.to_parquet(Z_data, "Z_data.parquet")
+import os
+try:
+    os.mkdir("data")
+ak.to_parquet(W_data, "data/W_data.parquet")
+ak.to_parquet(Z_data, "data/Z_data.parquet")
 

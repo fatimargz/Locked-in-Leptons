@@ -61,6 +61,7 @@ def rocData(y, predict_test, labels):
     auc1 = {}
 
     for i, label in enumerate(labels):
+        print(label)
         df[label] = y[:, i]
         df[label + '_pred'] = predict_test[:, i]
 

@@ -7,6 +7,8 @@ The objective of this project is to train a ML model to identify events with tru
 
 `read_data.py`: Script that loads open ATALS data and outputs two parquet files: W_data.parquet and Z_data.parquet.
 
+`data_train_test_split.py`: Script that splits W and Z data parquet files into a training and testing set which is saved as a `.npy` file.
+
 `DNN`: Contains analysis done for DNN application.
 
 `BDT`: Contains analysis done for BDT application.
@@ -53,7 +55,13 @@ ssh -L 8080:local:host:8080 $USER@vmlab.niu.edu
 ```
 
 ## Loading Data
-Run the following to load the dataset. It should create two parquet files, W_data.parquet and Z_data.parquet:
+Run the following to load the dataset. It should create two parquet files, W_data.parquet and Z_data.parquet, saved in a new directory `./data`:
 ```
 python read_data.py
-``` 
+```
+
+Then run
+```
+python data_train_test_split.py
+```
+to output the training and testing sets to a `.npy` file in `./data`. 
