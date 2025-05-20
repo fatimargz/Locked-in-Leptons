@@ -6,8 +6,8 @@ import numpy as np
 
 def get_traintest():
     # Import the parquet files with training data
-    W_data = ak.from_parquet("W_data.parquet")
-    Z_data = ak.from_parquet("Z_data.parquet")
+    W_data = ak.from_parquet("../data/W_data.parquet")
+    Z_data = ak.from_parquet("../data/Z_data.parquet")
     
     # add labels
     W_data["MET"] = len(W_data)*[1]
